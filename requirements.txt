@@ -1,0 +1,19 @@
+# The policy server's env (envs/policy_server.yaml); MolmoSpaces has its own (envs/molmospaces.sh).
+torch==2.15.0              # 2.13+ needed on macOS
+torchvision==0.29.1
+diffusers==0.41.0
+transformers==5.20.2
+huggingface_hub==1.33.0
+accelerate==1.15.0
+numpy==2.4.6
+scipy==1.17.1
+loguru==0.7.3
+einops==0.8.2
+pillow==11.3.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
+pandas==3.1.0
+pyarrow==26.0.0
+h5py==3.16.0               # DROID sample episodes (trajectory.h5)
+msgpack==1.2.4
+websockets==17.3

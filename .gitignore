@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+._*
+
+# Downloaded and generated: models, datasets, benchmarks, run outputs
+models/*
+!models/cosmos3_policy/
+datasets/
+benchmarks/
+outputs/
+*MUJOCO_LOG.TXT
